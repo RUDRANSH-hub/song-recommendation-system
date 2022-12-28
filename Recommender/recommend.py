@@ -25,9 +25,9 @@ warnings.filterwarnings("ignore")
 # In[2]:
 
 
-data = pd.read_csv("song-recommendation-system/Recommender/data/data.csv")
-genre_data = pd.read_csv("song-recommendation-system/Recommender/data/data_by_genres.csv")
-year_data = pd.read_csv("song-recommendation-system/Recommender/data/data_by_year.csv")
+data = pd.read_csv("data/data.csv")
+genre_data = pd.read_csv("data/data_by_genres.csv")
+year_data = pd.read_csv("data/data_by_year.csv")
 
 
 # In[3]:
